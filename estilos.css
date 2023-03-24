@@ -1,0 +1,124 @@
+body {
+  background-color: #f8f5f5;
+  padding: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+}
+.menu {
+  background-color: rgb(252,121,171);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+  box-shadow: 1px 1px #f50499, 2px 2px #fa03bc, 3px 3px #f5089a;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home {
+  font-size: 20px;
+  font-family: poppins;
+}
+.menu ul li {
+  padding-left: 35px;
+}
+
+.lista {
+  margin-right: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a.link {
+  color: rgb(35, 41, 31);
+  text-decoration: none;
+  padding-left: 20px;
+   
+}
+ a.link:hover {
+  background-color:rgb(252,199,225);
+  padding:2px;
+}
+
+.perfil {
+  
+  float: right;
+ padding-top:0%;
+ margin-top:4%;
+ margin-right: 5%;
+}
+
+/* BOTAO */
+
+.botao01 {
+  background-color: rgb(252,199,225);
+
+  border-radius: 6px;
+  padding: 15px;
+  cursor: pointer;
+  color: rgb(6, 7, 5);
+  border: none;
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 19%;
+}
+
+h1 {
+  margin-top: 10px;
+  font-family: poppins;
+  font-size: 30px;
+}
+
+p1 {
+  font-size: 60px;
+  margin-left: 4%;
+  padding-bottom: 10px;
+  padding-top: 4px;
+}
+
+p2 {
+  font-size: 40px;
+  margin-left: 10%;
+  padding-bottom: 10px;
+}
+
+p3 {
+  margin-left: 19%;
+  font-size: 60px;
+  color:rgb(252,199,225);
+}
+
+h2 {
+    padding-top: 60px;
+    margin-left: 10%;
+    font-family: poppins;
+    font-size: 25px;
+}
+.logo {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 100%;
+  margin-bottom: 98;
+}
+
+.redes {
+    padding-right:0%;
+    margin-left: 40%;
+    margin-top: 3px;
+}
